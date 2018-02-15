@@ -6,7 +6,7 @@ class GettingStartedView extends Component {
     return (
       <view.Command>
         <view.Header command="Getting Started">
-          <view.Description>How to get started using DAB Bot!</view.Description>
+          <view.Description>How to get started using dabBot!</view.Description>
         </view.Header>
       </view.Command>
     )

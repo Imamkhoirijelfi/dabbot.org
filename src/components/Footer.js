@@ -25,6 +25,7 @@ class Footer extends Component {
               <Item href="https://twitter.com/dabbbot" icon="fa-twitter" />
             </div>
             <p>Copyright &copy; 2017 dabbot.org | Please help to keep this project alive on <a href="/upgrades">Patreon</a>.</p>
+            <p>Listed on <a href="https://www.discordmusicbots.com">discordmusicbots.com</a></p>
           </div>
         </div>
       </footer>

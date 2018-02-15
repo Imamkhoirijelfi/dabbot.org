@@ -23,8 +23,10 @@ class LeftColumn extends Component {
   render() {
     return (
       <div className="tile is-parent is-vertical">
-        <Tile name="YouTube" icon="youtube-play" />
+        <Tile name="1000+ Radio Stations" icon="microphone" />
         <Tile name="SoundCloud" icon="soundcloud" />
+        <Tile name="Discord.FM" icon="" />
+        <Tile name="Playlist Support" icon="" />
       </div>
     )
   }
@@ -34,8 +36,10 @@ class RightColumn extends Component {
   render() {
     return (
       <div className="tile is-parent is-vertical">
-        <Tile name="Twitch" icon="twitch" />
-        <Tile name="Radio Stations" icon="microphone" />
+        <Tile name="YouTube" icon="youtube-play" />
+        <Tile name="Twitch.tv" icon="twitch" />
+        <Tile name="Listen.moe" icon="" />
+        <Tile name="Http/mp3" icon="" />
       </div>
     )
   }
@@ -50,7 +54,7 @@ class Bottom extends Component {
             <i className="fa fa-list" aria-hidden="true"></i> Much More
           </p>
           <p className="subtitle">
-            DAB Bot is always implementing new sources for music.
+            We are always adding new audio sources!
           </p>
         </article>
       </div>

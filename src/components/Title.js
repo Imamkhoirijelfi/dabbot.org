@@ -13,7 +13,7 @@ function getTitleFromPath(pathname) {
 class Title extends Component {
   render() {
     return (
-      <title>DAB Bot | {getTitleFromPath(this.props.pathname)}</title>
+      <title>dabBot | {getTitleFromPath(this.props.pathname)}</title>
     )
   }
 }
