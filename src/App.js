@@ -23,8 +23,8 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route path="/commands" component={Commands} />
                 <Route path="/radios" component={Radios} />
-                <Route path="/invite" component={() => window.location = "https://dabbot.org/invite"} />
-                <Route path="/support" component={() => window.location = "https://dabbot.org/support"} />
+                {/*<Route path="/invite" component={() => window.location = "https://dabbot.org/invite"} />
+                <Route path="/support" component={() => window.location = "https://dabbot.org/support"} />*/}
               </div>
             </section>
             <Footer />

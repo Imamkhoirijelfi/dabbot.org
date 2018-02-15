@@ -52,8 +52,8 @@ class Navbar extends Component {
               {/*<Item name="Commands" href="/commands" />*/}
               {/*<Item name="Radios" href="/radios" />*/}
               {/*<Item name="Upgrades" href="/upgrades" />*/}
-              <Item name="Invite the bot" href="/invite" />
-              <Item name="Support server" href="/support" />
+              <Item external name="Invite the bot" href="https://dabbot.org/invite" />
+              <Item external name="Support server" href="https://dabbot.org/support" />
               <Item external name="Patreon" href="https://patreon.com/dabbot" />
             </ul>
           </div>
