@@ -32,6 +32,10 @@ hr {
     padding: 3rem 1.5rem;
 }
 
+a:hover {
+  color: white;
+}
+
 /* helpers */
 .align-center {
   text-align: center;
