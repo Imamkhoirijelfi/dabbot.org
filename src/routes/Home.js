@@ -13,10 +13,10 @@ class Home extends Component {
         <div className="columns is-multiline">
           <Header />
 
-          <AdSense.Google client='ca-pub-6568927978510442'
+          {/*<AdSense.Google client='ca-pub-6568927978510442'
             slot='3138818756'
             style={{display: "block"}}
-            format='auto' />
+            format='auto' />*/}
 
           <Features />
         </div>
