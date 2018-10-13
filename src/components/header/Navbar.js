@@ -49,9 +49,9 @@ class Navbar extends Component {
           <div className="container">
             <ul>
               <Item name="Home" href="/" exact />
-              {/*<Item name="Commands" href="/commands" />*/}
-              {/*<Item name="Radios" href="/radios" />*/}
-              {/*<Item name="Upgrades" href="/upgrades" />*/}
+              <Item name="Commands" href="/commands" />
+              <Item name="Radios" href="/radios" />
+              <Item name="Upgrades" href="/upgrades" />
               <Item external name="Invite the bot" href="https://dabbot.org/invite" />
               <Item external name="Support server" href="https://dabbot.org/support" />
               <Item external name="Patreon" href="https://patreon.com/dabbot" />

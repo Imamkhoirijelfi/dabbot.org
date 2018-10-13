@@ -6,22 +6,15 @@ class AboutView extends Component {
     return (
       <view.Command>
         <view.Header command="About">
-          <view.Description>Here's a nice long description of what the command does</view.Description>
+          <view.Description>Gives you basic information about the bot</view.Description>
         </view.Header>
         <view.UsageList>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> [blocks]"}</code>
-          </view.Usage>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> <limit> <dabs>"}</code>
+          <view.Usage title="Usage">
+            <code>{"!!!about"}</code>
           </view.Usage>
         </view.UsageList>
         <view.ExampleList>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
+          <img src="https://zeyla.is-a-good-waifu.com/0e1a72.png" />
         </view.ExampleList>
       </view.Command>
     )

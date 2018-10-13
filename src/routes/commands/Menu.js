@@ -28,11 +28,9 @@ class Menu extends Component {
           Information
         </p>
         <ul className="menu-list">
-          <Item name="Getting Started" index />
           <Item name="About" />
           <Item name="Help" />
           <Item name="Invite" />
-          <Item name="Providers" />
         </ul>
         <p className="menu-label">
           Playing Music
