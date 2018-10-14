@@ -6,22 +6,15 @@ class ShuffleView extends Component {
     return (
       <view.Command>
         <view.Header command="Shuffle">
-          <view.Description>Pick a song from a selection menu</view.Description>
+          <view.Description>Shuffles the song queue.</view.Description>
         </view.Header>
         <view.UsageList>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> [blocks]"}</code>
-          </view.Usage>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> <limit> <dabs>"}</code>
+          <view.Usage title="Shuffle the song queue.">
+            <code>{"!!!shuffle"}</code>
           </view.Usage>
         </view.UsageList>
         <view.ExampleList>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
+          <p><code>{"!!!shuffle"}</code> Shuffle the song queue.</p>
         </view.ExampleList>
       </view.Command>
     )

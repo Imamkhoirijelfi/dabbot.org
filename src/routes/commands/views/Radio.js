@@ -6,22 +6,19 @@ class RadioView extends Component {
     return (
       <view.Command>
         <view.Header command="Radio">
-          <view.Description>Play a radio</view.Description>
+          <view.Description>Play a radio.</view.Description>
         </view.Header>
         <view.UsageList>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> [blocks]"}</code>
+          <view.Usage title="Listing the available radios.">
+            <code>{"!!!radio"}</code>
           </view.Usage>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> <limit> <dabs>"}</code>
+          <view.Usage title="Searching for a radio by name.">
+            <code>{"!!!radio <name here>"}</code>
           </view.Usage>
         </view.UsageList>
         <view.ExampleList>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
+          <p><code>{"!!!radio"}</code> List the available radios.</p>
+          <p><code>{"!!!radio Radio Name Here"}</code> Searching for a radio by name.</p>
         </view.ExampleList>
       </view.Command>
     )

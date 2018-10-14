@@ -6,7 +6,7 @@ class HelpView extends Component {
     return (
       <view.Command>
         <view.Header command="Help">
-          <view.Description>Links you to the help website</view.Description>
+          <view.Description>Links you to the help website.</view.Description>
         </view.Header>
         <view.UsageList>
           <view.Usage title="Usage">

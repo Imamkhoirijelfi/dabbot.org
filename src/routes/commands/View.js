@@ -4,7 +4,6 @@ export class Usage extends Component {
   render() {
     return (
       <div className="column is-half-tablet is-one-third-fullhd">
-        <p>{this.props.title}</p>
         <p>
           {this.props.children}
         </p>

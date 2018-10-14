@@ -6,7 +6,7 @@ class InviteView extends Component {
     return (
       <view.Command>
         <view.Header command="Invite">
-          <view.Description>Gives the bot's invite link</view.Description>
+          <view.Description>Gives the bot's invite link.</view.Description>
         </view.Header>
         <view.UsageList>
           <view.Usage title="Usage">

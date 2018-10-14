@@ -6,22 +6,19 @@ class QueueView extends Component {
     return (
       <view.Command>
         <view.Header command="Queue">
-          <view.Description>Play a soundcloud</view.Description>
+          <view.Description>Show the current song queue.</view.Description>
         </view.Header>
         <view.UsageList>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> [blocks]"}</code>
+          <view.Usage title="Show the current song queue.">
+            <code>{"!!!queue"}</code>
           </view.Usage>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> <limit> <dabs>"}</code>
+          <view.Usage title="Show the current song queue.">
+            <code>{"!!!q"}</code>
           </view.Usage>
         </view.UsageList>
         <view.ExampleList>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
+          <p><code>{"!!!queue"}</code></p>
+          <p><code>{"!!!q"}</code></p>
         </view.ExampleList>
       </view.Command>
     )

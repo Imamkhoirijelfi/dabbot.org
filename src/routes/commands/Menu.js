@@ -31,6 +31,7 @@ class Menu extends Component {
           <Item name="About" />
           <Item name="Help" />
           <Item name="Invite" />
+          <Item name="Ping" />
         </ul>
         <p className="menu-label">
           Playing Music
@@ -40,28 +41,25 @@ class Menu extends Component {
           <Item name="DiscordFM" />
           <Item name="Play" />
           <Item name="Radio" />
-          <Item name="Search" />
           <Item name="SoundCloud" />
+          <Item name="YouTube" />
         </ul>
         <p className="menu-label">
           Queue
         </p>
         <ul className="menu-list">
+          <Item name="Clear" />
           <Item name="NowPlaying" />
           <Item name="Queue" />
-          <Item name="Remove" />
-          <Item name="Reorder" />
           <Item name="Shuffle" />
-          <Item name="Loop" />
-          <Item name="Repeat" />
         </ul>
         <p className="menu-label">
           Controls
         </p>
         <ul className="menu-list">
-          <Item name="Jump" />
           <Item name="Pause/Resume" />
           <Item name="Restart" />
+          <Item name="Seek" />
           <Item name="Skip" />
           <Item name="Stop" />
           <Item name="Volume" />

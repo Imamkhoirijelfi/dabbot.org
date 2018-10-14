@@ -6,22 +6,19 @@ class NowPlayingView extends Component {
     return (
       <view.Command>
         <view.Header command="NowPlaying">
-          <view.Description>Pick a song from a selection menu</view.Description>
+          <view.Description>Shows the name and time of the currently playing song.</view.Description>
         </view.Header>
         <view.UsageList>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> [blocks]"}</code>
+          <view.Usage title="Show the current song">
+            <code>{"!!!nowplaying"}</code>
           </view.Usage>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> <limit> <dabs>"}</code>
+          <view.Usage title="Show the current song">
+            <code>{"!!!np"}</code>
           </view.Usage>
         </view.UsageList>
         <view.ExampleList>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
+          <p><code>{"!!!nowplaying"}</code> Show the current song.</p>
+          <p><code>{"!!!np"}</code> Show the current song.</p>
         </view.ExampleList>
       </view.Command>
     )

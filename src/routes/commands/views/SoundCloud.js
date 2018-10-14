@@ -6,22 +6,19 @@ class SoundCloudView extends Component {
     return (
       <view.Command>
         <view.Header command="SoundCloud">
-          <view.Description>Play a soundcloud</view.Description>
+          <view.Description>Search for a song on SoundCloud.</view.Description>
         </view.Header>
         <view.UsageList>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> [blocks]"}</code>
+          <view.Usage title="Searching for a song on SoundCloud.">
+            <code>{"!!!soundcloud <song name here>"}</code>
           </view.Usage>
-          <view.Usage title="Finding a minecraft character">
-            <code>{"!!!something <character name> <limit> <dabs>"}</code>
+          <view.Usage title="Searching for a song on SoundCloud.">
+            <code>{"!!!sc <song name here>"}</code>
           </view.Usage>
         </view.UsageList>
         <view.ExampleList>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
-          <p>Dab!</p>
+          <p><code>{"!!!soundcloud Song Name"}</code> Search for a song on SoundCloud named "Song Name".</p>
+          <p><code>{"!!!sc Song Name"}</code> Search for a song on SoundCloud named "Song Name".</p>
         </view.ExampleList>
       </view.Command>
     )
