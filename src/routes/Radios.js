@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Title from '../components/Title'
+import RadiosView from './radios/RadiosView';
 
 class Radios extends Component {
   render() {
@@ -7,7 +8,7 @@ class Radios extends Component {
       <div>
         <Title pathname={this.props.location.pathname} />
 
-        <h2>Radio station browser coming soon...</h2>
+        <RadiosView />
       </div>
     )
   }

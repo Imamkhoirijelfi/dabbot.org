@@ -50,7 +50,7 @@ class Navbar extends Component {
             <ul>
               <Item name="Home" href="/" exact />
               <Item name="Commands" href="/commands" />
-              <Item external name="Radios" href="https://radios.dabbot.org" />
+              <Item name="Radios" href="/radios" />
               <Item external name="Invite the bot" href="https://dabbot.org/invite" />
               <Item external name="Support server" href="https://dabbot.org/support" />
               <Item external name="Patreon" href="https://patreon.com/dabbot" />
