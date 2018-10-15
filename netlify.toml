@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/commands"
+  to = "/"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/commands/*"
+  to = "/"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/radios"
+  to = "/"
+  status = 200
+  force = true
