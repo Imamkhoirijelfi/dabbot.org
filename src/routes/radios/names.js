@@ -1,4 +1,4 @@
-[
+export const names = [
   "1 Live Diggi",
   "100.5 The Katt",
   "101.5 UMFM",
@@ -1160,4 +1160,4 @@
   "ZET Rock",
   "ZetlandFM",
   "Zip FM"
-]
+];
