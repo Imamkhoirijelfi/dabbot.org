@@ -24,10 +24,10 @@ class Footer extends Component {
               <Item href="https://github.com/dabbotorg" icon="fa-github" />
               <Item href="https://twitter.com/dabbbot" icon="fa-twitter" />
             </div>
-            <p>Copyright &copy; 2017 dabbot.org | Please help to keep this project alive on <a href="https://patreon.com/dabbot">Patreon</a>.</p>
+            <p>Copyright &copy; dabbot.org | Please help to keep this project alive on <a href="https://patreon.com/dabbot">Patreon</a>.</p>
             <p>Listed on <a href="https://www.discordmusicbots.com">discordmusicbots.com</a></p>
             <p>
-              <a href="https://discordbots.org/bot/270198738570444801" >
+              <a href="https://discordbots.org/bot/dabbot" >
                 <img src="https://discordbots.org/api/widget/status/270198738570444801.svg" alt="dabBot" />
               </a>
             </p>
