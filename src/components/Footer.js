@@ -26,6 +26,11 @@ class Footer extends Component {
             </div>
             <p>Copyright &copy; 2017 dabbot.org | Please help to keep this project alive on <a href="https://patreon.com/dabbot">Patreon</a>.</p>
             <p>Listed on <a href="https://www.discordmusicbots.com">discordmusicbots.com</a></p>
+            <p>
+              <a href="https://discordbots.org/bot/270198738570444801" >
+                <img src="https://discordbots.org/api/widget/status/270198738570444801.svg" alt="dabBot" />
+              </a>
+            </p>
           </div>
         </div>
       </footer>
